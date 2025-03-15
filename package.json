@@ -1,0 +1,21 @@
+{
+  "name": "hmacpass",
+  "version": "1.0.0",
+  "description": "A lightweight and secure password hashing library using HMAC-SHA512.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "hmac",
+    "password",
+    "hash",
+    "security",
+    "sha512"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
