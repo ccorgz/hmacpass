@@ -28,7 +28,7 @@ yarn add hmacpass
 ### 1. Hashing a Password
 
 ```javascript
-import { validatePass } from "hmacpass";
+import { createPass } from "hmacpass";
 // or
 import hmacpass from "hmacpass";
 
