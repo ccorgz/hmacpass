@@ -28,10 +28,14 @@ yarn add hmacpass
 ### 1. Hashing a Password
 
 ```javascript
-const { createHash } = require("hmacpass");
+import { validatePass } from "hmacpass";
+// or
+import hmacpass from "hmacpass";
 
 const password = "mySecurePassword";
-const { salt, hash } = createHash(password);
+const { salt, hash } = createPass(password);
+// or
+const { salt, hash } = hmacpass.createPass(password);
 
 console.log("Salt:", salt);
 console.log("Hash:", hash);
@@ -45,9 +49,13 @@ console.log("Hash:", hash);
 ### 2. Verifying a Password
 
 ```javascript
-const { verifyPassword } = require("hmacpass");
+import { validatePass } from "hmacpass";
+// or
+import hmacpass from "hmacpass";
 
-const isValid = verifyPassword("mySecurePassword", salt, hash);
+const isValid = validatePass("mySecurePassword", salt, hash);
+// or
+const isValid = hmacpass.validatePass("mySecurePassword", salt, hash);
 
 console.log("Password is valid:", isValid);
 ```
