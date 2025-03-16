@@ -1,4 +1,4 @@
-const createPass = require("./src/createPass"); // ✅ Correct import
-const validatePass = require("./src/validatePass"); // ✅ Correct import
+const createPass = require("./src/createPass");
+const validatePass = require("./src/validatePass");
 
-module.exports = { createPass, validatePass }; // ✅ Correct export
+module.exports = { createPass, validatePass };
