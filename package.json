@@ -1,6 +1,6 @@
 {
   "name": "hmacpass",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "description": "A lightweight and secure password hashing library using HMAC-SHA512.",
   "main": "index.js",
   "types": "index.d.ts",
