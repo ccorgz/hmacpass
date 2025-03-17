@@ -1,6 +1,6 @@
 {
   "name": "hmacpass",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "description": "A lightweight and secure password hashing library using HMAC-SHA512.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -14,7 +14,7 @@
     "security",
     "sha512"
   ],
-  "author": "Your Name",
+  "author": "Ccorgz",
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0"
